@@ -36,6 +36,9 @@ public class Hold {
         this.suitcases.get(indeksi).printItems();
         indeksi++;
         }
+//        suitcases.stream()
+//                .map(suitcase -> suitcase.printItems())
+//                .forEach(item -> System.out.println(item));
     }
 
     @Override
